@@ -1418,7 +1418,10 @@ mod tests {
 
     use std::ops::{Deref as _, DerefMut as _};
 
-    use bevy::ecs::{change_detection::MaybeLocation, component::Tick, system::SystemState};
+    use bevy::ecs::{
+        change_detection::{MaybeLocation, Tick},
+        system::SystemState,
+    };
 
     use super::*;
     use crate::{lens::*, test_utils::assert_approx_eq};

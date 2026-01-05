@@ -516,7 +516,7 @@ mod tests {
 
     #[cfg(any(feature = "bevy_sprite", feature = "bevy_text"))]
     use bevy::color::palettes::css::{BLUE, RED};
-    use bevy::ecs::{change_detection::MaybeLocation, component::Tick};
+    use bevy::ecs::change_detection::{MaybeLocation, Tick};
 
     use super::*;
 

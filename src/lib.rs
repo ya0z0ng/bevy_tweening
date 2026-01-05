@@ -2795,7 +2795,7 @@ mod tests {
         marker::PhantomData,
     };
 
-    use bevy::ecs::{change_detection::MaybeLocation, component::Tick};
+    use bevy::ecs::change_detection::{MaybeLocation, Tick};
 
     use super::*;
     use crate::test_utils::*;

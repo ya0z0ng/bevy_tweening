@@ -3,7 +3,7 @@ extern crate criterion;
 
 use bevy::{
     color::palettes::css::{BLUE, RED},
-    ecs::{change_detection::MaybeLocation, component::Tick},
+    ecs::change_detection::{MaybeLocation, Tick},
     prelude::*,
 };
 use bevy_tweening::lens::*;
